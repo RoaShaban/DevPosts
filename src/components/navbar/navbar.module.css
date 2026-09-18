@@ -43,3 +43,35 @@
     border-radius: 50%;
     padding: 5px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .nav span{
+        display: none;
+    }
+
+    .nav a{
+        display: none;
+    }
+
+    .navbar svg:last-child{
+        width: 44px;
+        padding: 7px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+
+    .navbar svg:first-child{
+        width: 35px;
+    }
+
+    .brand span{
+        font-size: 27px;
+    }
+
+    .navbar svg:last-child{
+        width: 35px;
+        padding: 5px;
+    }
+}
