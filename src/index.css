@@ -1,0 +1,10 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary: #4F46E5;
+}
+
+a{
+    text-decoration: none !important;
+}

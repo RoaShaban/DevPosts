@@ -1,0 +1,45 @@
+.navbar{
+    font-family: "Neuton", serif;
+}
+
+.navbar svg:first-child{
+    width: 45px;
+    fill: var(--primary);
+}
+
+.brand span{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.nav a{
+    color: var(--primary);
+    font-size: 23px;
+    font-weight: 600;
+    transition: all 1s;
+}
+
+.nav a:first-child{
+    border-radius: 25px;
+    font-size: 21px;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 7px 15px;
+}
+
+.nav a:hover{
+    border-radius: 25px;
+    font-size: 21px;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 7px 15px;
+}
+
+.navbar svg:last-child{
+    width: 37px;
+    fill: #fff;
+    background-color: var(--primary);
+    border-radius: 50%;
+    padding: 5px;
+}
